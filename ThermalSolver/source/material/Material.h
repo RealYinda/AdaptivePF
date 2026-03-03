@@ -97,6 +97,10 @@ public:
    */
   double getAlpha(double T);
 
+  /// Yin-Da Wang
+  /// 获取临界能量释放率
+  double getGc(double T);
+
   /**
    * @brief 计算温变参数.
    *
@@ -162,7 +166,7 @@ private:
   double d_Cp;//常压热容
   double d_alpha;//热膨胀系数
 
-  double Param_T[9][5];//材料温变系数
+  double Param_T[10][5];//材料温变系数
 
   //update #9 2017-05-06
   //电学学相关材料

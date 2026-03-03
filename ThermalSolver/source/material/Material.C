@@ -30,7 +30,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=11.7;
 			  d_sigma=1e-12;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  	  Param_T[i][j]=Silicon_Param_T[i][j];
 		}
@@ -45,7 +45,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=5.98e7;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Copper_Param_T[i][j];
 		}
@@ -60,7 +60,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=2.65;
 			  d_sigma=1200;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=BCB_Param_T[i][j];
 		}
@@ -75,7 +75,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=2;
 			  d_sigma=1e-12;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Copper_Param_T[i][j];
 		}
@@ -90,7 +90,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=1.43e7;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Copper_Param_T[i][j];
 		}
@@ -105,7 +105,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=6.67e6;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Copper_Param_T[i][j];
 		}
@@ -120,7 +120,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=2.1;
 			  d_sigma=1e-6;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Copper_Param_T[i][j];
 		}
@@ -135,7 +135,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=45.6e6;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Gold_Param_T[i][j];
 		}
@@ -150,7 +150,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=4.2;
 			  d_sigma=1e-12;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=SiO2_Param_T[i][j];
 		}
@@ -165,7 +165,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=1e-12;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=SiN_Param_T[i][j];
      	}
@@ -180,7 +180,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=2e7;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=MoCu_Param_T[i][j];
 		}
@@ -195,7 +195,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=12.9;
 			  d_sigma=1e-6;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=GaAs_Param_T[i][j];
      	}
@@ -210,7 +210,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=9.0;
 			  d_sigma=1e-20;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=GaN_Param_T[i][j];
      	}
@@ -225,7 +225,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=3.55e7;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Aluminum_Param_T[i][j];
      	}
@@ -240,7 +240,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=1.82e6;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Alloy_Param_T[i][j];
      	}
@@ -255,7 +255,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=10;
 			  d_sigma=10e-14;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Al2O3_Param_T[i][j];
      	}
@@ -269,7 +269,7 @@ Material::Material(const string name) : BaseMaterial<NDIM>(name) {
 			  d_mur=1;
 			  d_epsilonr=1;
 			  d_sigma=0;
-			  for(int i=0;i<9;i++)
+              for(int i=0;i<10;i++)
 				  for(int j=0;j<5;j++)
 					  Param_T[i][j]=Default_Param_T[i][j];
 		}
@@ -381,6 +381,13 @@ double Material::getAlpha(double T)
 	//if(T!=300)
         d_alpha= computeTimeParam(T, e_alpha);
 	return d_alpha;
+}
+
+double Material::getGc(double T)
+{
+    //if(T!=300)
+        d_epsilonr= computeTimeParam(T, e_Gc);
+    return d_epsilonr;
 }
 
 //////////////////////////////////////////////////////////////////////////
